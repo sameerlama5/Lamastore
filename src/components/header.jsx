@@ -15,13 +15,13 @@ const Header = () => {
             </Link>
 
             {/* desktop menu */}
-            <div className="hidden xl:flex items-center">
+            <div className="hidden md:block items-center">
             <Nav />
             </div>
 
 
             {/* mobile menu */}
-            <div className="xl:hidden">
+            <div className="md:hidden">
                 <MobileNav />
             </div>
         </div>

@@ -1,5 +1,7 @@
 "use client";
 
+// import CategoryList from "@/components/categorylist";
+import ProductList from "@/components/productlist";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
@@ -23,7 +25,7 @@ const Home = () => {
 
       <section>
         <div className="container">
-          
+          <ProductList />
         </div>
       </section>
     </main>

@@ -24,15 +24,16 @@ const ProductList = () => {
               <Image
                 shadow="sm"
                 radius="lg"
-                width="100%"
+                width={300}
+                height={200}
                 alt={item.title}
-                className="w-full object-cover h-[140px]"
-                src={item.image}
+                className="w-full object-cover object-center"
+                src={item.images[0]}
               />
             </CardBody>
             <CardFooter className="text-small justify-between">
               <b>{item.title}</b>
-              <p className="text-default-500">{item.price}</p>
+              <p className="text-default-500">${item.price}</p>
             </CardFooter>
           </Card>
         ))}

@@ -18,9 +18,9 @@ const CategoryList = () => {
     }, []);
 
     return (
-      <Dropdown >
+      <Dropdown>
         <DropdownTrigger>
-          <Button className="bg-transparent shadow-none p-0 hover:bg-white focus-visible:ring-none focus-visible:ring-0 flex gap-[10px] justify-start"
+          <Button className="bg-transparent shadow-none p-0 hover:bg-transparent focus-visible:ring-none focus-visible:ring-0 flex gap-[10px] justify-start"
           >
             <CiMenuFries className='text-[#000]/80 text-2xl' />
             <span className='capitalize text-[18px] text-[#000]/50'>Shop by category</span>

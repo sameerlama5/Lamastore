@@ -6,8 +6,8 @@ const ProductSearch = () => {
   return (
     <div className='relative w-[100%] max-w-[600px]'>
         <Input className='focus-visible:ring-2 py-[20px] bg-[#fff]' type="text" placeholder="Search products..." />
-      <button className='absolute top-[14px] right-[16px] text-3xl'>
-        <MagnifyingGlassIcon className='text-3xl' />
+      <button className='absolute top-[10px] right-[16px]'>
+        <MagnifyingGlassIcon className='text-3xl w-[25px] h-[25px]' />
         </button>
     </div>
   )

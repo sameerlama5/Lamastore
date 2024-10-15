@@ -10,7 +10,7 @@ import React from "react";
 const Home = () => {
   return (
     <main>
-      <section className="h-full pb-0 block">
+      <section className="h-full py-[80px]">
         <div className="container">
           <div className="grid gap-[50px] grid-cols-1 items-center md:grid-cols-2">
             <div className="max-w-[630px]">
@@ -43,6 +43,7 @@ const Home = () => {
                   width={400}
                   height={400}
                   alt="NextUI hero Image"
+                  className="cover"
                   src="/assets/image/banner lama store image.png"
                 />
               </figure>
@@ -51,7 +52,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="block">
+      <section>
         <div className="container">
           <ProductList />
         </div>

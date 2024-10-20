@@ -1,9 +1,14 @@
-import React from 'react'
+import ProductList from "@/components/productlist";
+import React from "react";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <section className="py-[80px]">
+      <div className="container">
+        <ProductList />
+      </div>
+    </section>
+  );
+};
 
-export default Shop
+export default Shop;

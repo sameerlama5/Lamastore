@@ -1,6 +1,5 @@
 "use client";
 
-import CategoryList from "@/components/categorylist";
 import ProductList from "@/components/productlist";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -15,8 +14,8 @@ const Home = () => {
           <div className="grid gap-[50px] grid-cols-1 items-center md:grid-cols-2">
             <div className="max-w-[630px]">
               <h1 className="text-[#000] mb-[10px]">
-                Mega Sale <span className="text-orange-500">Special</span>{" "}
-                <br /> Offer up to <span className="text-red-500">60%</span> Off
+                Mega Sale <span className="text-[#00a0de]">Special</span>{" "}
+                <br /> Offer up to <span className="text-[#2e3192]">60%</span> Off
               </h1>
               <p className="mb-[30px] w-[100%]">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et

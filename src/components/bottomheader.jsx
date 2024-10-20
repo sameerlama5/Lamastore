@@ -1,7 +1,7 @@
 import React from 'react'
-import CategoryList from './categorylist'
 import ProductSearch from './productsearch'
 import { ShoppingCart, UserIcon } from 'lucide-react'
+import CategoryList from './categorylist'
 
 const BottomHeader = () => {
   return (
